@@ -6,5 +6,5 @@ metadata:
   namespace: argocd
 spec:
   source:
-    path: environment/stating/nginx-foo
+    path: environment/staging/nginx-foo
 
