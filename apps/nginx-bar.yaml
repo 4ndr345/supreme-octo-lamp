@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: nginx-foo
+  name: nginx-bar 
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/4ndr345/supreme-octo-lamp.git
     targetRevision: HEAD
-    path: environment/stating/nginx-foo
+    path: nginx-bar
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

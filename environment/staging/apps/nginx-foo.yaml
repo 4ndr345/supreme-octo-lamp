@@ -1,0 +1,5 @@
+---
+spec:
+  source:
+    path: environment/stating/nginx-foo
+
