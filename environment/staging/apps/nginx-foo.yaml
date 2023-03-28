@@ -1,4 +1,6 @@
 ---
+metadata:
+  name: nginx-foo
 spec:
   source:
     path: environment/stating/nginx-foo
