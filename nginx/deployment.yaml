@@ -8,8 +8,8 @@ metadata:
     app: nginx
 spec:
   replicas: 1
-  selctor:
-  matchLabels:
+  selector:
+   matchLabels:
     app: nginx
   template:
     metadata:
