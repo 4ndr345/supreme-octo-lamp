@@ -2,8 +2,8 @@
 namespace: staging
 namePrefix: staging-
 resources:
-  - ../../../apps
+- ../../../apps
 patchesStrategicMerge:
-  - nginx-foo.yaml
-  - nginx-bar.yaml
+- nginx-foo.yaml
+- nginx-bar.yaml
 
