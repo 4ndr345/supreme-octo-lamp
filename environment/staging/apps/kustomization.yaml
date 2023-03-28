@@ -5,5 +5,5 @@ resources:
   - ../../../apps
 patchesStrategicMerge:
   - nginx-foo.yaml
-  - nginx-bar.yanl
+  - nginx-bar.yaml
 
