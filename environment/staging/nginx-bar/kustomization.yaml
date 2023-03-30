@@ -1,5 +1,5 @@
 ---
-namespace: staging
+namespace: staging-bar
 images:
   - name: nginx
     newTag: 1.22.0
