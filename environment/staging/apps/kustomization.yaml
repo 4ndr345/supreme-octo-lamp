@@ -4,8 +4,8 @@ kind: Kustomization
 namePrefix: staging-
 resources:
   - ../../../apps
+  - namespace.yaml
 patchesStrategicMerge:
   - nginx-foo.yaml
   - nginx-bar.yaml
-  - namespace.yaml
 
